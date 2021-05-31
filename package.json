@@ -1,0 +1,27 @@
+{
+  "name": "klava",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn workspace klava-app dev",
+    "build": "yarn workspace klava-app build",
+    "start": "yarn workspace klava-app start",
+    "chain": "yarn workspace klava-hardhat chain",
+    "fork": "yarn workspace klava-hardhat fork",
+    "node": "yarn workspace klava-hardhat chain",
+    "test": "yarn workspace klava-hardhat test",
+    "compile": "yarn workspace klava-hardhat compile",
+    "deploy": "yarn workspace klava-hardhat deploy",
+    "watch": "yarn workspace klava-hardhat watch",
+    "accounts": "yarn workspace klava-hardhat accounts",
+    "balance": "yarn workspace klava-hardhat balance",
+    "send": "yarn workspace klava-hardhat send"
+  }
+}
